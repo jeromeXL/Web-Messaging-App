@@ -1,3 +1,1 @@
 # Messaging Application
-
-** Messaging Application **
