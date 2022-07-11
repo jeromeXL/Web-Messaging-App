@@ -1,0 +1,81 @@
+Meeting Minutes
+
+11/03/2022 - Ashna Desai
+
+Assigned functions of what all members are doing. Aaleen screen shared and walked all members through the functions we were assigned.
+
+Aaleen-
+auth/login/v2
+auth/register/v2
+auth/logout/v1
+dm/messages/v1
+dm/leave/v1
+user/profile/sethandle/v1
+
+Jerome- 
+channels/create/v2
+channels/list/v2
+channels/listall/v2
+channel/leave/v1
+channel/addowner/v1
+channel/removeowner/v1
+users/all/v1
+
+Ashna-
+channel/details/v2
+dm/create/v1
+dm/list/v1
+dm/remove/v1
+dm/details/v1
+user/profile/v1
+
+Rui-
+channel/messages/v2
+clear/v1
+message/edit/v1
+message/remove/v1
+dm/create/v1
+message/senddm/v1
+
+Chris-
+channel/join/v2
+channel/invite/v2
+user/profile/setname/v1
+user/profile/setemail/v1
+admin/user/remove/v1
+admin/userpermission/change/v1
+
+Debugging v1 code to pass pipeline and pass pylint. 
+Coverage was 3% (haven't implemented iteration 2 yet)
+Pipeline passed!
+
+Future plans:
+Have all functions from iteration1 completed and updated using FLASK by Thursday week 5.
+Have all new functions form iteration2 completed by Friday week 6.
+
+Todays Meeting Notes- 25/03/2022
+
+Today we discussed the issues with Error 500 Ashna was getting, and after posting on the forum, the issue was fixed!
+We also discussed Jerome's issues with using Postman. We decided we would instead write thorough tests and test the http layer this way instead. Jerome's error with pytest was fixed as well and understood that both terminals have to be run on the same platform, either VSCode or VLab but not both.
+We also discussed persistance and how to tackle it.
+
+Aaleen:
+What Aaleen has done so far: Updated register and login, added encryption and token, created auth logout, sethandle and dm create.
+Plans to do: Finish dm messages.
+
+Ashna:
+What Jerome have done so far: Updated channel_details and passes the tests, written dm_list, dm_delete and dm_leave
+Plans to do: Debug the dm functions and write user_profile and dm_details.
+
+Chris:
+What Chris has done so far: written tests for user_profile, but its not black box yet. Used data store to check if the function worked. Used auth user id instead of token. Admin user remove needs dms to be done.
+What do you plan to do: Need to do admin user remove, and change tests to flask and wrap new functions
+
+Jerome:
+What Jerome has done so far: Fixed issues with server and pytest. Wrote wrappers for channels, and modified the functions.
+Plans to do: Write the tests for channels, by Saturday finish all the functions have them pass tests, debug on Sunday.
+
+Rui:
+What Rui plans to do: Has written many tests and passes them. Has to write more http tests.
+Plans to do: Add more tests and work on two remaining functions. Also needs to write function description and descriptive function tests.
+

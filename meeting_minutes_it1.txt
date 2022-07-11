@@ -1,0 +1,111 @@
+Meeting Minutes – Jerome (Chun) 
+
+25/2/2022 
+
+Every meeting, a new person will write the minutes. For the first meeting, Jerome will write them. We will also have a daily standup through whatsapp.  
+
+What we talked about in meeting: 
+    Discussing the spec with group so everyone is on the same page about the project. Aaleen share screened and discussed all functions.  
+
+Our understanding of the project so far: 
+    -Auth register should go first, Auth login next, All channels, Clear 
+    -Setting deadlines, Deciding who should do which functions  
+    -Clear seems like the hardest one, think it empties all stored data, resetting it  
+    -Confused about channel invite and channel join  
+
+Issues Board: For every function 
+
+What we need to do and deadlines:  
+
+Order of functions to be done 
+    1) auth register (aaleen)  
+    2) auth login (aaleen) (End Monday) 
+    3) channel create (jerome) 
+    4) channel list, channels list all (jerome) (End Tuesday) 
+    5) channel details, (ashna) (End Wednesday) 
+    6) channel join, channel invite (chris) (End Thursday) 
+    7) channel messages (rui) 
+    8) clear (rui) (End Friday) 
+
+ 
+
+Sequence 
+
+    1&2 Auth register + login (monday) 
+
+    3 (end tuesday) 
+
+    4, 5, 6 (end thursday) 
+
+    7 (friday) 
+
+    8 (sunday) 
+
+ 
+
+Goals:  
+
+    Everyone quickly finishes this weeks labs by today (Friday) or Saturday and get started on the project. 
+
+Next Meeting:  
+
+    Every Friday In Person at UNSW 10am – 2pm  
+
+Daily standups on Whatsapp  
+
+
+ 
+Meeting 2 minutes – Aaleen 4/03/22 
+
+What we have been working on recently: 
+
+    Rui has finished working on the tests for channel_messages 
+
+    Jerome recently updated data store to match the specification and updated  
+
+    Aaleen has fixed an error in auth_tests for auth_register_v1 
+
+    Chris finished the tests for channel_join and is working on the function channel_join 
+
+
+What we talked about during the meeting: 
+
+    Updating clear_v1 to change channels_store to channels 
+
+    Different test cases for channels_list and channels_list_all 
+
+    Making sure all tests are blackbox 
+
+    How to make merge requests 
+
+Future schedule: 
+
+    Rui will try to merge channels_messages_v1 by the end of Friday 
+
+    Jerome will attempt to merge channels_list and channels_list all and their tests by the end of Saturday 
+
+    Chris will channel_join and channel_invite by the end of Friday 
+
+    Aaleen will try to update auth_tests to test for handle_str by the end of Friday 
+
+Meeting 3 minutes – Aaleen 6/03/22 
+
+What we worked on recently: 
+
+    Everyone completed their individual functions 
+
+    All functions and tests have been completed and are passing if they are not dependent on other functions 
+
+    What we talked about / worked on in the meeting: 
+
+    Making sure all tests depend on other functions pass 
+
+    Updating documentation for each function 
+
+    Updating assumptions if necessary 
+
+    Checking all the code for any bugs 
+
+Future Schedule: 
+
+    Submit final code  
